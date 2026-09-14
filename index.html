@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação do Projeto</title>
+    <!-- Reveal.js CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/dracula.min.css">
+    <!-- Highlight.js para código bonito -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/monokai.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- SLIDE 1: Capa -->
+            <section>
+                <h1 class="title">🚀 Nome Incrível do Seu Projeto</h1>
+                <p class="subtitle">Uma solução moderna para [descreva o problema brevemente]</p>
+                <hr>
+                <div class="authors">
+                    <p><strong>Desenvolvido por:</strong></p>
+                    <ul>
+                        <li>Seu Nome Completo</li>
+                        <li>Nome do Integrante 2</li>
+                        <li>Nome do Integrante 3</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- SLIDE 2: Objetivos -->
+            <section>
+                <h2>🎯 Objetivos do Projeto</h2>
+                <ul class="bullet-list">
+                    <li>Resolver [Problema X] através de automação/tecnologia.</li>
+                    <li>Desenvolver uma interface responsiva e intuitiva.</li>
+                    <li>Garantir integração rápida com APIs externas.</li>
+                    <li>Otimizar o tempo de resposta e experiência do usuário.</li>
+                </ul>
+            </section>
+
+            <!-- SLIDE 3: Desenvolvimento -->
+            <section>
+                <section>
+                    <h2>🛠️ Como foi feito?</h2>
+                    <ol>
+                        <li>Levantamento de requisitos e prototipagem.</li>
+                        <li>Desenvolvimento do Front-end (HTML/CSS/JS).</li>
+                        <li>Integração da lógica e testes unitários.</li>
+                        <li>Deploy contínuo via GitHub Actions.</li>
+                    </ol>
+                    <p class="hint"><i>(Pressione a seta para baixo para ver o código e telas)</i></p>
+                </section>
+
+                <section>
+                    <h3>Captura de Tela do Site</h3>
+                    <!-- Substitua o src pelo caminho da sua imagem -->
+                    <img src="https://via.placeholder.com/800x400" alt="Print do Projeto" class="demo-img">
+                </section>
+
+                <section>
+                    <h3>Trecho do Código</h3>
+                    <pre><code class="language-javascript" data-trim data-noescape>
+// Função principal do projeto
+function inicializarProjeto() {
+    const status = "Projeto Carregado com Sucesso!";
+    console.log(status);
+    return true;
+}
+
+inicializarProjeto();
+                    </code></pre>
+                </section>
+            </section>
+
+            <!-- SLIDE 4: Pergunta Provocativa e Dúvidas -->
+            <section class="final-slide">
+                <h2>💬 Dúvidas e Comentários</h2>
+                <blockquote class="question">
+                    "Como esta ferramenta pode transformar a forma como você trabalha hoje?"
+                </blockquote>
+                <p>Obrigado pela atenção!</p>
+                <p><small>Espaço aberto para perguntas e feedbacks.</small></p>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Reveal.js JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/highlight/highlight.min.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            plugins: [ RevealHighlight ]
+        });
+    </script>
+</body>
+</html>
